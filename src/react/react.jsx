@@ -293,12 +293,12 @@ function Experience(props){
             <h1>My Experience</h1>
             <img src={redmaneLogo} class="experience-image"></img>
             <FadeInComponent once={true} delay="0s" text="RedMane Technology" type="h2"/>
-            <FadeInComponent once={true} delay="0.5s" text="June 2021-Present" type="h3"/>
+            <FadeInComponent once={true} delay="0.5s" text="June 2021-April 2022" type="h3"/>
             <FadeInComponent once={true} text="The start to my career. While at RedMane I worked with an open source content management system built on .NET called Umbraco to
             create a citizen facing website portal that allows foster parents to view and update information, create appointments, and view information on their placements.
             While working on the project, Umbraco updated to version 9, which made the switch from .NET framework 4.7.2 to .NET core 5.0.
-            As a result I have a fair amount of experience with both .NET framework, .NET core and the transition between the two. Currently, I have transitioned to working with Java
-            and a social program management platform called Cúram." type="p" delay="0.5s"/>
+            As a result I have a fair amount of experience with both .NET framework, .NET core and the transition between the two. I transitioned to working with Java
+            and a social program management platform called Cúram. I worked with the Missouri Eligibility Determination and Enrollment System (MEDES)." type="p" delay="0.5s"/>
         </div>
     )
 }
@@ -329,7 +329,7 @@ function Projects(props){
         <div className="projects-content">
             <h1 id="projects">My Projects</h1>
             <div className="project-buttons">
-                <ProjectButton destination="https://github.com/Alexander-Quatrini/AQ-Blog" title="Blog (WIP)" src={angularLogo} id="project-one"/>
+                <ProjectButton destination="https://github.com/Alexander-Quatrini/Steam-App" title="Steam App (WIP)" src={angularLogo} id="project-one"/>
                 <ProjectButton destination="https://github.com/Alexander-Quatrini/OnlineResume" title="Online Resume" src={reactLogo} id="project-two"/>
                 {/*<ProjectButton destination="https://www.github.com" title="Sample Project 3" src="media/src1.jpeg" id="project-three"/>
                 <ProjectButton destination="https://www.github.com" title="Sample Project 4" src="media/src1.jpeg" id="project-four"/>*/}
